@@ -21,7 +21,7 @@ cd AOI-IDE
 make
 
 # Run with:
-./bin/aoi solution.cpp
+sudo ./aoi solution.cpp
 ```
 ```cpp
 // Special optimizations for CP
