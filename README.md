@@ -16,8 +16,8 @@ A minimalist, terminal-based code editor optimized for competitive programming c
 
 ```bash
 # Clone & Build
-git clone https://github.com/yourusername/AOI-Editor.git
-cd AOI-Editor
+git clone https://github.com/mohamedboukerche22/AOI-IDE.git
+cd AOI-IDE
 make
 
 # Run with:
@@ -66,4 +66,13 @@ g++ aoi.cpp -o aoi -lncurses
 ### run
 ```
 ./aoi {yourcodename}.cpp
+```
+
+```graph TD
+
+    A[Core C++ Engine] --> B[Platform-Specific Adapters]
+    B --> C[Linux/ncurses]
+    B --> D[Windows/PDCurses]
+    B --> E[Web/Emscripten]
+    B --> F[Mobile/Termux]
 ```
